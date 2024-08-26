@@ -112,7 +112,7 @@ else
     # Ajustar permissões gerais
     find ${FOLDER_WEB}${FOLDER_GLPI}/ -type d -exec chmod 755 {} \;
     find ${FOLDER_WEB}${FOLDER_GLPI}/ -type f -exec chmod 644 {} \;
-    find ${FOLDER_WEB}${FOLDER_GLPI}/files -Rf -type f -exec chmod 777 {} \;
+    find ${FOLDER_WEB}${FOLDER_GLPI}/files/ -Rf -type f -exec chmod 777 {} \;
 
 
     # Criando link simbólico para o sistema GLPi dentro do diretório defalt do apache
